@@ -8,7 +8,7 @@ The image link is clicable and open the photo in browser.
 #### Application screens:
 ## Gallery
 
-![Image description](https://github.com/yaelbe/viAsyncLoad/blob/master/screens/Screen%20Shot%202020-05-27%20at%2023.53.50.pngg)
+![Image description](https://github.com/yaelbe/viAsyncLoad/blob/master/screens/Screen%20Shot%202020-05-27%20at%2023.53.50.png)
 ## Photo Deteiles
 
 ![Image description](https://github.com/yaelbe/viAsyncLoad/blob/master/screens/Screen%20Shot%202020-05-27%20at%2023.54.05.png)
