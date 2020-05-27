@@ -6,6 +6,6 @@ This application get a set of url store in a plist and download them asyncronic 
 ## Gallery
 
 ![Image description](https://github.com/yaelbe/viAsyncLoad/blob/master/screens/Screen%20Shot%202020-05-27%20at%2023.53.50.png)
-## Photo Deteiles
+## Photo Details
 
 ![Image description](https://github.com/yaelbe/viAsyncLoad/blob/master/screens/Screen%20Shot%202020-05-27%20at%2023.54.05.png)
