@@ -15,6 +15,16 @@
 		4F3CA65E247E5D2D00074699 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F3CA65C247E5D2D00074699 /* LaunchScreen.storyboard */; };
 		4F3CA669247E5D2E00074699 /* ViAsyncLoadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3CA668247E5D2E00074699 /* ViAsyncLoadTests.swift */; };
 		4F3CA674247E5D2E00074699 /* ViAsyncLoadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3CA673247E5D2E00074699 /* ViAsyncLoadUITests.swift */; };
+		4F3CA683247E5DD700074699 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3CA682247E5DD700074699 /* GalleryViewController.swift */; };
+		4F3CA686247E5E3A00074699 /* PhotoRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3CA685247E5E3A00074699 /* PhotoRecord.swift */; };
+		4F3CA688247E5E8700074699 /* LeftAlignLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3CA687247E5E8700074699 /* LeftAlignLayout.swift */; };
+		4F3CA68A247E5F6E00074699 /* Photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F3CA689247E5F6E00074699 /* Photos.plist */; };
+		4F3CA68C247E5FC800074699 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3CA68B247E5FC800074699 /* PhotoCell.swift */; };
+		4F3CA68F247E619A00074699 /* DownloadOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3CA68E247E619A00074699 /* DownloadOperations.swift */; };
+		4F3CA691247E758800074699 /* PhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3CA690247E758800074699 /* PhotosViewModel.swift */; };
+		4F3CA693247E92AF00074699 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3CA692247E92AF00074699 /* Observable.swift */; };
+		4F3CA695247EBE3000074699 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3CA694247EBE3000074699 /* LocalFileManager.swift */; };
+		4F3CA697247ED4BD00074699 /* ImageDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3CA696247ED4BD00074699 /* ImageDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		4F3CA66F247E5D2E00074699 /* ViAsyncLoadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViAsyncLoadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F3CA673247E5D2E00074699 /* ViAsyncLoadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViAsyncLoadUITests.swift; sourceTree = "<group>"; };
 		4F3CA675247E5D2E00074699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F3CA682247E5DD700074699 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		4F3CA685247E5E3A00074699 /* PhotoRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRecord.swift; sourceTree = "<group>"; };
+		4F3CA687247E5E8700074699 /* LeftAlignLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftAlignLayout.swift; sourceTree = "<group>"; };
+		4F3CA689247E5F6E00074699 /* Photos.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Photos.plist; sourceTree = "<group>"; };
+		4F3CA68B247E5FC800074699 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		4F3CA68E247E619A00074699 /* DownloadOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadOperations.swift; sourceTree = "<group>"; };
+		4F3CA690247E758800074699 /* PhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewModel.swift; sourceTree = "<group>"; };
+		4F3CA692247E92AF00074699 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		4F3CA694247EBE3000074699 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
+		4F3CA696247ED4BD00074699 /* ImageDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +119,9 @@
 		4F3CA650247E5D2C00074699 /* ViAsyncLoad */ = {
 			isa = PBXGroup;
 			children = (
+				4F3CA68D247E615F00074699 /* FilesManager */,
+				4F3CA684247E5E0200074699 /* Models */,
+				4F3CA681247E5D8D00074699 /* View */,
 				4F3CA651247E5D2C00074699 /* AppDelegate.swift */,
 				4F3CA653247E5D2C00074699 /* SceneDelegate.swift */,
 				4F3CA655247E5D2C00074699 /* ViewController.swift */,
@@ -106,6 +129,7 @@
 				4F3CA65A247E5D2D00074699 /* Assets.xcassets */,
 				4F3CA65C247E5D2D00074699 /* LaunchScreen.storyboard */,
 				4F3CA65F247E5D2D00074699 /* Info.plist */,
+				4F3CA689247E5F6E00074699 /* Photos.plist */,
 			);
 			path = ViAsyncLoad;
 			sourceTree = "<group>";
@@ -126,6 +150,36 @@
 				4F3CA675247E5D2E00074699 /* Info.plist */,
 			);
 			path = ViAsyncLoadUITests;
+			sourceTree = "<group>";
+		};
+		4F3CA681247E5D8D00074699 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F3CA682247E5DD700074699 /* GalleryViewController.swift */,
+				4F3CA687247E5E8700074699 /* LeftAlignLayout.swift */,
+				4F3CA68B247E5FC800074699 /* PhotoCell.swift */,
+				4F3CA696247ED4BD00074699 /* ImageDetailsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4F3CA684247E5E0200074699 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F3CA685247E5E3A00074699 /* PhotoRecord.swift */,
+				4F3CA690247E758800074699 /* PhotosViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4F3CA68D247E615F00074699 /* FilesManager */ = {
+			isa = PBXGroup;
+			children = (
+				4F3CA68E247E619A00074699 /* DownloadOperations.swift */,
+				4F3CA692247E92AF00074699 /* Observable.swift */,
+				4F3CA694247EBE3000074699 /* LocalFileManager.swift */,
+			);
+			path = FilesManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +289,7 @@
 				4F3CA65E247E5D2D00074699 /* LaunchScreen.storyboard in Resources */,
 				4F3CA65B247E5D2D00074699 /* Assets.xcassets in Resources */,
 				4F3CA659247E5D2C00074699 /* Main.storyboard in Resources */,
+				4F3CA68A247E5F6E00074699 /* Photos.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +314,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F3CA691247E758800074699 /* PhotosViewModel.swift in Sources */,
+				4F3CA695247EBE3000074699 /* LocalFileManager.swift in Sources */,
+				4F3CA68C247E5FC800074699 /* PhotoCell.swift in Sources */,
+				4F3CA688247E5E8700074699 /* LeftAlignLayout.swift in Sources */,
 				4F3CA656247E5D2C00074699 /* ViewController.swift in Sources */,
+				4F3CA68F247E619A00074699 /* DownloadOperations.swift in Sources */,
+				4F3CA697247ED4BD00074699 /* ImageDetailsViewController.swift in Sources */,
+				4F3CA683247E5DD700074699 /* GalleryViewController.swift in Sources */,
+				4F3CA693247E92AF00074699 /* Observable.swift in Sources */,
 				4F3CA652247E5D2C00074699 /* AppDelegate.swift in Sources */,
+				4F3CA686247E5E3A00074699 /* PhotoRecord.swift in Sources */,
 				4F3CA654247E5D2C00074699 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +484,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
