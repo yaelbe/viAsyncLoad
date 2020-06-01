@@ -30,6 +30,24 @@ class ImageDetailsViewController :UIViewController{
         }
         setupUrlLabel()
     }
+//    override func viewWillAppear(_ animated: Bool) {
+//        super.viewWillAppear(animated)
+//        if let delegate = UIApplication.shared.delegate as? AppDelegate{
+//            delegate.orientationLock = .portrait
+//            UIDevice.current.setValue(UIInterfaceOrientationMask.portrait.rawValue, forKey: "orientation")
+//            UINavigationController.attemptRotationToDeviceOrientation()
+//        }
+//    }
+//
+//    override func viewWillDisappear(_ animated: Bool) {
+//        super.viewWillDisappear(animated)
+//
+//        if let delegate = UIApplication.shared.delegate as? AppDelegate{
+//            delegate.orientationLock = .all
+//            UIDevice.current.setValue(UIInterfaceOrientationMask.all.rawValue, forKey: "orientation")
+//            UINavigationController.attemptRotationToDeviceOrientation()
+//        }
+//    }
     
     func configer(imageUrl:URL){
         self.imageUrl = imageUrl
@@ -53,8 +71,8 @@ class ImageDetailsViewController :UIViewController{
     }
     private func setupImage(){
         let screenSize = UIScreen.main.bounds
-        let screenWidth = screenSize.width
-        let screenHeight = screenSize.height - 20
+        let screenWidth = screenSize.width - 20
+        let screenHeight = screenSize.height - 100
         
         var width = CGFloat(self.image.image?.size.width ?? screenWidth)
         var height = CGFloat(self.image.image?.size.height ?? screenHeight)
@@ -63,15 +81,15 @@ class ImageDetailsViewController :UIViewController{
         resolution.text = String(format: "%.0f * %.0f", width,height)
         if width > screenWidth{
             width = screenWidth
-            height = width*ratio
+            height = width/ratio
         }
         
         if height > screenHeight{
             height = screenHeight
-            width = height/ratio
+            width = height*ratio
         }
         
-        imageHeight.constant = width
+        imageHeight.constant = height
         imageWidth.constant = width
         
     }

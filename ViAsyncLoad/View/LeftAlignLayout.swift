@@ -27,6 +27,8 @@ class LeftAlignFlowLayout: UICollectionViewFlowLayout {
         super.init(coder: aDecoder)
     }
     
+  
+    
     override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
        let attr = super.layoutAttributesForElements(in: rect)
         var attributes = [UICollectionViewLayoutAttributes]()

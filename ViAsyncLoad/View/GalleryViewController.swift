@@ -33,6 +33,13 @@ class PhotoStreamViewController: UICollectionViewController {
             }
         }
     }
+    
+    public override func willTransition(to newCollection: UITraitCollection, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.willTransition(to: newCollection, with: coordinator)
+        if let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
+            layout.invalidateLayout()
+        }
+    }
 }
 
 extension PhotoStreamViewController: UICollectionViewDelegateFlowLayout {
